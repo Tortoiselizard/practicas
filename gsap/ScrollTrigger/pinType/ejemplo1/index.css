@@ -1,0 +1,30 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.panel {
+  height: 100vh;
+  border: solid 1px white;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+}
+
+.intro {
+  background-color: white;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100vw;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border-radius: 20px;
+}

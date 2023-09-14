@@ -1,0 +1,25 @@
+.container {
+    border: 5px solid black;
+    height: 200px;
+    width: 50vw;
+    overflow: hidden;
+}
+
+.container-child {
+    height: 100%;
+    width: max-content;
+    /* width: 70vw; */
+    border: 3px solid yellowgreen;
+    display: inline-block;
+    display: flex;
+    overflow: visible;
+}
+
+.child {
+    min-width: 100px;
+    /* width: 100px; */
+    height: 50px;
+    background-color: red;
+    border: 1px solid green;
+    display: inline-block;
+}

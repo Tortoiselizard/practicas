@@ -1,0 +1,32 @@
+.container {
+    border: 2px solid black;
+    background-color: red;
+    position: relative;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    border: 1px solid white;
+    font-family: Formula Condensed;
+    height: 100px;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #006873;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    border: 1px solid yellowgreen;
+    width: 80%;
+    font-size: 21px;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: 0;
+}

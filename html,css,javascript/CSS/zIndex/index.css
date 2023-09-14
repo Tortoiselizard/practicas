@@ -1,0 +1,38 @@
+body {
+    height: 400vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    /* z-index: 0; */
+}
+
+.row1 {
+    background-color: gold;
+}
+
+.row2 {
+    background-color: greenyellow;
+    /* z-index: 1; */
+}
+
+.row3 {
+    background-color: yellow;
+}
+
+.row4 {
+    background-color: blue;
+}
+
+.box {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 80%;
+    z-index: 1;
+}
