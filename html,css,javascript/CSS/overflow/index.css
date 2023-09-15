@@ -1,8 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
 .container {
     border: 5px solid black;
     height: 200px;
-    width: 50vw;
-    overflow: hidden;
+    width: 25vw;
+    margin: 50px;
+    display: inline-block;
 }
 
 .container-child {
@@ -22,4 +29,21 @@
     background-color: red;
     border: 1px solid green;
     display: inline-block;
+}
+
+.container1 {
+    overflow: hidden;
+}
+
+.container2 {
+    /* overflow: visible; */
+    overflow: auto;
+}
+
+.container3 {
+    overflow: scroll;
+}
+
+.container4 {
+    overflow: auto;
 }
