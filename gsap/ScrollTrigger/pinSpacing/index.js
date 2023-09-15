@@ -38,3 +38,16 @@ gsap.fromTo('.box', {
 //         scrub: 2
 //     }
 // })
+
+const buttonStop = document.querySelector('.stop')
+const buttonRun = document.querySelector('.run')
+
+buttonStop.addEventListener('click', () => {
+    console.log('estoy en stop')
+    document.body.style.overflow = 'hidden'
+})
+
+buttonRun.addEventListener('click', () => {
+    console.log('estoy en run')
+    document.body.style.overflow = ''
+})
