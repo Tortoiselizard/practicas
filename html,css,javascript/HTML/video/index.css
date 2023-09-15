@@ -1,0 +1,15 @@
+.container {
+    border: 2px solid black;
+    background-color: red;
+    position: relative;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.video {
+    width: 640px;
+    height: 480;
+}
