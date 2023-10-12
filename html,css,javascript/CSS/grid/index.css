@@ -1,0 +1,13 @@
+.container {
+    height: 100px;
+    width: 100%;
+    background-color: bisque;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 100px;
+}
+
+.box {
+    background-color: red;
+    border: 1px solid yellowgreen;
+}
