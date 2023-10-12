@@ -4,7 +4,7 @@
     background-color: bisque;
     border: 2px solid black;
     display: grid;
-    grid-template-columns: 1fr 100px;
+    grid-template-columns: 2fr 100px;
 }
 
 .box {
