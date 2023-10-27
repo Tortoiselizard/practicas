@@ -1,0 +1,23 @@
+.container {
+    /* height: 100px; */
+    width:80%;
+    background-color: bisque;
+    border: 4px solid black;
+    display: flex;
+    /* display: grid; */
+    /* grid-template-columns: 2fr 300px; */
+}
+
+.box {
+    background-color: red;
+    border: 2px solid yellowgreen;
+}
+
+.box1 {
+    height: 500px;
+    width: 50%;
+}
+
+form {
+    width: 50%;
+}
